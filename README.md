@@ -141,14 +141,14 @@ curl -X DELETE http://localhost:8080/tasks/123
 
 ---
 
-### 4. **GET /tasks/search?name=Print**
+### 4. **GET /tasks/search/name**
 
 Search tasks by partial name.
 
 **Example:**
 
 ```bash
-curl -X GET "http://localhost:8080/tasks/search?name=Print"
+curl -X GET "http://localhost:8080/tasks/search/name"
 ```
 
 ---
