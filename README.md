@@ -233,13 +233,13 @@ Include screenshots of your Postman requests/responses in your project’s GitHu
 
 | **Endpoint**                | **Method** | **Description / Functionality**                                                        | **Screenshot**                                             |
 | --------------------------- | ---------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| `/tasks`                    | **GET**    | Returns all tasks if no parameters are passed.                                         | ![Get All Tasks](screenshots/get-tasks.png)                |
-| `/tasks/{id}`               | **GET**    | <span style="color:green;font-weight:bold;"> Task found – returns task details</span> | ![Get Task By Id](screenshots/get-task-by-id.png)          |
-| `/tasks/{id}`               | **GET**    | <span style="color:red;font-weight:bold;"> 404 Not Found – task doesn’t exist</span>  | ![Get Task By Id](screenshots/get-task-by-id-notfound.png) |
-| `/tasks`                    | **PUT**    | Creates or updates a task with safe command validation.                                | ![Create Task](screenshots/put-task.png)                   |
-| `/tasks/{id}/execute`       | **PUT**    | Executes a task’s shell command and stores the result.                                 | ![Execute Task](screenshots/execute-task.png)              |
-| `/tasks/{id}`               | **DELETE** | Deletes a task by its ID.                                                              | ![Delete Task](screenshots/delete-task.png)                |
-| `/tasks/find?name={string}` | **GET**    | Finds tasks whose names contain the given string.                                      | ![Find Tasks By Name](screenshots/find-task.png)           |
+| `/tasks`                    | **GET**    | Returns all tasks if no parameters are passed.                                         | ![Get All Tasks](https://github.com/purnachandu12/Kaiburr-task-1/blob/main/Get%20All.png)                |
+| `/tasks/{id}`               | **GET**    | <span style="color:green;font-weight:bold;"> Task found – returns task details</span> | ![Get Task By Id](https://github.com/purnachandu12/Kaiburr-task-1/blob/main/Get%20By%20Id.png)          |
+| `/tasks/{id}`               | **GET**    | <span style="color:red;font-weight:bold;"> 404 Not Found – task doesn’t exist</span>  | ![Get Task By Id](https://github.com/purnachandu12/Kaiburr-task-1/blob/main/id%20not%20found.png) |
+| `/tasks`                    | **PUT**    | Creates or updates a task with safe command validation.                                | ![Create Task](https://github.com/purnachandu12/Kaiburr-task-1/blob/main/ADD.png)                   |
+| `/tasks/{id}/execute`       | **PUT**    | Executes a task’s shell command and stores the result.                                 | ![Execute Task](https://github.com/purnachandu12/Kaiburr-task-1/blob/main/Exected.png)              |
+| `/tasks/{id}`               | **DELETE** | Deletes a task by its ID.                                                              | ![Delete Task](https://github.com/purnachandu12/Kaiburr-task-1/blob/main/Delete.png)                |
+| `/tasks/find?name={string}` | **GET**    | Finds tasks whose names contain the given string.                                      | ![Find Tasks By Name](https://github.com/purnachandu12/Kaiburr-task-1/blob/main/Search%20By%20Name.png)           |
 
 ---
 
